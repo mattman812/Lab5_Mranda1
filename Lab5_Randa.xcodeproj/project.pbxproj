@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6229DAA81AA146EE00AC9788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DAA71AA146EE00AC9788 /* Foundation.framework */; };
+		6229DAAA1AA146EE00AC9788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DAA91AA146EE00AC9788 /* CoreGraphics.framework */; };
+		6229DAAC1AA146EE00AC9788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DAAB1AA146EE00AC9788 /* UIKit.framework */; };
+		6229DAB21AA146EE00AC9788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6229DAB01AA146EE00AC9788 /* InfoPlist.strings */; };
+		6229DAB41AA146EE00AC9788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DAB31AA146EE00AC9788 /* main.m */; };
+		6229DAB81AA146EE00AC9788 /* MVRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DAB71AA146EE00AC9788 /* MVRAppDelegate.m */; };
+		6229DABB1AA146EE00AC9788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6229DAB91AA146EE00AC9788 /* Main.storyboard */; };
+		6229DABE1AA146EE00AC9788 /* MVRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DABD1AA146EE00AC9788 /* MVRViewController.m */; };
+		6229DAC01AA146EE00AC9788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6229DABF1AA146EE00AC9788 /* Images.xcassets */; };
+		6229DAC71AA146EE00AC9788 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DAC61AA146EE00AC9788 /* XCTest.framework */; };
+		6229DAC81AA146EE00AC9788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DAA71AA146EE00AC9788 /* Foundation.framework */; };
+		6229DAC91AA146EE00AC9788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DAAB1AA146EE00AC9788 /* UIKit.framework */; };
+		6229DAD11AA146EE00AC9788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6229DACF1AA146EE00AC9788 /* InfoPlist.strings */; };
+		6229DAD31AA146EE00AC9788 /* Lab5_RandaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DAD21AA146EE00AC9788 /* Lab5_RandaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6229DACA1AA146EE00AC9788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6229DA9C1AA146EE00AC9788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6229DAA31AA146EE00AC9788;
+			remoteInfo = Lab5_Randa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6229DAA41AA146EE00AC9788 /* Lab5_Randa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab5_Randa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6229DAA71AA146EE00AC9788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6229DAA91AA146EE00AC9788 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6229DAAB1AA146EE00AC9788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6229DAAF1AA146EE00AC9788 /* Lab5_Randa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab5_Randa-Info.plist"; sourceTree = "<group>"; };
+		6229DAB11AA146EE00AC9788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6229DAB31AA146EE00AC9788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6229DAB51AA146EE00AC9788 /* Lab5_Randa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab5_Randa-Prefix.pch"; sourceTree = "<group>"; };
+		6229DAB61AA146EE00AC9788 /* MVRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVRAppDelegate.h; sourceTree = "<group>"; };
+		6229DAB71AA146EE00AC9788 /* MVRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVRAppDelegate.m; sourceTree = "<group>"; };
+		6229DABA1AA146EE00AC9788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6229DABC1AA146EE00AC9788 /* MVRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVRViewController.h; sourceTree = "<group>"; };
+		6229DABD1AA146EE00AC9788 /* MVRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVRViewController.m; sourceTree = "<group>"; };
+		6229DABF1AA146EE00AC9788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6229DAC51AA146EE00AC9788 /* Lab5_RandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab5_RandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6229DAC61AA146EE00AC9788 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6229DACE1AA146EE00AC9788 /* Lab5_RandaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab5_RandaTests-Info.plist"; sourceTree = "<group>"; };
+		6229DAD01AA146EE00AC9788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6229DAD21AA146EE00AC9788 /* Lab5_RandaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab5_RandaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6229DAA11AA146EE00AC9788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DAAA1AA146EE00AC9788 /* CoreGraphics.framework in Frameworks */,
+				6229DAAC1AA146EE00AC9788 /* UIKit.framework in Frameworks */,
+				6229DAA81AA146EE00AC9788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6229DAC21AA146EE00AC9788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DAC71AA146EE00AC9788 /* XCTest.framework in Frameworks */,
+				6229DAC91AA146EE00AC9788 /* UIKit.framework in Frameworks */,
+				6229DAC81AA146EE00AC9788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6229DA9B1AA146EE00AC9788 = {
+			isa = PBXGroup;
+			children = (
+				6229DAAD1AA146EE00AC9788 /* Lab5_Randa */,
+				6229DACC1AA146EE00AC9788 /* Lab5_RandaTests */,
+				6229DAA61AA146EE00AC9788 /* Frameworks */,
+				6229DAA51AA146EE00AC9788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6229DAA51AA146EE00AC9788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6229DAA41AA146EE00AC9788 /* Lab5_Randa.app */,
+				6229DAC51AA146EE00AC9788 /* Lab5_RandaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6229DAA61AA146EE00AC9788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6229DAA71AA146EE00AC9788 /* Foundation.framework */,
+				6229DAA91AA146EE00AC9788 /* CoreGraphics.framework */,
+				6229DAAB1AA146EE00AC9788 /* UIKit.framework */,
+				6229DAC61AA146EE00AC9788 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6229DAAD1AA146EE00AC9788 /* Lab5_Randa */ = {
+			isa = PBXGroup;
+			children = (
+				6229DAB61AA146EE00AC9788 /* MVRAppDelegate.h */,
+				6229DAB71AA146EE00AC9788 /* MVRAppDelegate.m */,
+				6229DAB91AA146EE00AC9788 /* Main.storyboard */,
+				6229DABC1AA146EE00AC9788 /* MVRViewController.h */,
+				6229DABD1AA146EE00AC9788 /* MVRViewController.m */,
+				6229DABF1AA146EE00AC9788 /* Images.xcassets */,
+				6229DAAE1AA146EE00AC9788 /* Supporting Files */,
+			);
+			path = Lab5_Randa;
+			sourceTree = "<group>";
+		};
+		6229DAAE1AA146EE00AC9788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6229DAAF1AA146EE00AC9788 /* Lab5_Randa-Info.plist */,
+				6229DAB01AA146EE00AC9788 /* InfoPlist.strings */,
+				6229DAB31AA146EE00AC9788 /* main.m */,
+				6229DAB51AA146EE00AC9788 /* Lab5_Randa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6229DACC1AA146EE00AC9788 /* Lab5_RandaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6229DAD21AA146EE00AC9788 /* Lab5_RandaTests.m */,
+				6229DACD1AA146EE00AC9788 /* Supporting Files */,
+			);
+			path = Lab5_RandaTests;
+			sourceTree = "<group>";
+		};
+		6229DACD1AA146EE00AC9788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6229DACE1AA146EE00AC9788 /* Lab5_RandaTests-Info.plist */,
+				6229DACF1AA146EE00AC9788 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6229DAA31AA146EE00AC9788 /* Lab5_Randa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6229DAD61AA146EE00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_Randa" */;
+			buildPhases = (
+				6229DAA01AA146EE00AC9788 /* Sources */,
+				6229DAA11AA146EE00AC9788 /* Frameworks */,
+				6229DAA21AA146EE00AC9788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab5_Randa;
+			productName = Lab5_Randa;
+			productReference = 6229DAA41AA146EE00AC9788 /* Lab5_Randa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6229DAC41AA146EE00AC9788 /* Lab5_RandaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6229DAD91AA146EE00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_RandaTests" */;
+			buildPhases = (
+				6229DAC11AA146EE00AC9788 /* Sources */,
+				6229DAC21AA146EE00AC9788 /* Frameworks */,
+				6229DAC31AA146EE00AC9788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6229DACB1AA146EE00AC9788 /* PBXTargetDependency */,
+			);
+			name = Lab5_RandaTests;
+			productName = Lab5_RandaTests;
+			productReference = 6229DAC51AA146EE00AC9788 /* Lab5_RandaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6229DA9C1AA146EE00AC9788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MVR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Lab5_Mranda;
+				TargetAttributes = {
+					6229DAC41AA146EE00AC9788 = {
+						TestTargetID = 6229DAA31AA146EE00AC9788;
+					};
+				};
+			};
+			buildConfigurationList = 6229DA9F1AA146EE00AC9788 /* Build configuration list for PBXProject "Lab5_Randa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6229DA9B1AA146EE00AC9788;
+			productRefGroup = 6229DAA51AA146EE00AC9788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6229DAA31AA146EE00AC9788 /* Lab5_Randa */,
+				6229DAC41AA146EE00AC9788 /* Lab5_RandaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6229DAA21AA146EE00AC9788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DAC01AA146EE00AC9788 /* Images.xcassets in Resources */,
+				6229DAB21AA146EE00AC9788 /* InfoPlist.strings in Resources */,
+				6229DABB1AA146EE00AC9788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6229DAC31AA146EE00AC9788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DAD11AA146EE00AC9788 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6229DAA01AA146EE00AC9788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DAB81AA146EE00AC9788 /* MVRAppDelegate.m in Sources */,
+				6229DAB41AA146EE00AC9788 /* main.m in Sources */,
+				6229DABE1AA146EE00AC9788 /* MVRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6229DAC11AA146EE00AC9788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DAD31AA146EE00AC9788 /* Lab5_RandaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6229DACB1AA146EE00AC9788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6229DAA31AA146EE00AC9788 /* Lab5_Randa */;
+			targetProxy = 6229DACA1AA146EE00AC9788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6229DAB01AA146EE00AC9788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6229DAB11AA146EE00AC9788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6229DAB91AA146EE00AC9788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6229DABA1AA146EE00AC9788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6229DACF1AA146EE00AC9788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6229DAD01AA146EE00AC9788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6229DAD41AA146EE00AC9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6229DAD51AA146EE00AC9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6229DAD71AA146EE00AC9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Randa/Lab5_Randa-Prefix.pch";
+				INFOPLIST_FILE = "Lab5_Randa/Lab5_Randa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6229DAD81AA146EE00AC9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Randa/Lab5_Randa-Prefix.pch";
+				INFOPLIST_FILE = "Lab5_Randa/Lab5_Randa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6229DADA1AA146EE00AC9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lab5_Randa.app/Lab5_Randa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Randa/Lab5_Randa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lab5_RandaTests/Lab5_RandaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6229DADB1AA146EE00AC9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lab5_Randa.app/Lab5_Randa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Randa/Lab5_Randa-Prefix.pch";
+				INFOPLIST_FILE = "Lab5_RandaTests/Lab5_RandaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6229DA9F1AA146EE00AC9788 /* Build configuration list for PBXProject "Lab5_Randa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6229DAD41AA146EE00AC9788 /* Debug */,
+				6229DAD51AA146EE00AC9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6229DAD61AA146EE00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_Randa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6229DAD71AA146EE00AC9788 /* Debug */,
+				6229DAD81AA146EE00AC9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6229DAD91AA146EE00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_RandaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6229DADA1AA146EE00AC9788 /* Debug */,
+				6229DADB1AA146EE00AC9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6229DA9C1AA146EE00AC9788 /* Project object */;
+}
